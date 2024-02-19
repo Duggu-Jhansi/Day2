@@ -1,5 +1,5 @@
 <template>
-  <h1>{{title }}</h1>
+  
   <ModalComponents/>
  
 </template>
@@ -11,11 +11,7 @@ import ModalComponents from './components/ModalComponents.vue';
 export default {
   name: 'App',
   components:{ModalComponents },
-  data(){
-    return{
-      title:"My First Vue Form"
-    }
-  },
+  
   
 }
 </script>
