@@ -1,16 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>{{title }}</h1>
+  <ModalComponents/>
+ 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import ModalComponents from './components/ModalComponents.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components:{ModalComponents },
+  data(){
+    return{
+      title:"My First Vue Form"
+    }
+  },
+  
 }
 </script>
 
